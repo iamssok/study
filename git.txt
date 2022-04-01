@@ -1,0 +1,20 @@
+dir
+mkdir dirname
+rmdir dirname
+cd dirname
+cd ..
+
+git config --global user.name "username"
+git config --global user.email "useremail"
+gti config user.name "username"
+git config user.email "useremail"
+
+git status
+git add Hello.html
+git commit -m "new file"
+git push origin main
+git branch
+git branch dir01
+git checkout dir01
+git branch -d dir01
+git push origin --delete dir01
