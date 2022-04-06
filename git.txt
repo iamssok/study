@@ -17,3 +17,8 @@ git branch dir01
 git checkout dir01
 git branch -d dir01
 git push origin --delete dir01
+git branch -m 변경전 변경후 
+
+git remote
+git remote -v
+git remote set-url origin http://~  // remote url 변경
