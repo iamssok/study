@@ -8,6 +8,8 @@ git config --global user.email "useremail"
 gti config user.name "username"
 git config user.email "useremail"
 
+git pull origin main
+
 git status
 git add Hello.html
 git commit -m "new file"
