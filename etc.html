@@ -26,7 +26,13 @@
     <div class="section3"></div>
     <div class="section4"></div>
 
-    <script>
+    <script>   
+        $(".cnt_2 .tab > li").on('click', function(){
+			$(this).addClass('active').siblings('li').removeClass('active');
+			$(".cnt_4 .tab_cnt").css("display","none");
+			$(".cnt_4 .tab_cnt").eq( $(this).index() ).fadeIn();
+		});
+
         function moving(target) { var _target=$("."+target); $("html, body").stop().animate({scrollTop:_target.offset().top}, 400); }
     </script>
 </body>
