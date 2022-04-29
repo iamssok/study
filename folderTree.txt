@@ -1,0 +1,31 @@
+public
+ ├ img/icons
+ ├ favicon.ico
+ ├ index.html
+ └ robots.txt
+src
+├ assets	// 자산파일 저장 (font, icons, images, styles)
+   └ logo.png
+├ components
+   ├ Header.vue
+   └ Footer.vue
+├ router	// router와 관련된 모든 파일 저장
+   └ index.ts
+├ store	// vuex와 관련된 파일을 저장하는 vuex 스토어 디렉토리
+   └ index.ts
+    // 어플리케이션 경로에 대한 모든 진입점 저장
+       예시로, 어플리케이션에 /home, /about, /orders 라우터가 있으면
+       각각 views 폴더에 Home.vue, About.vue, Order.vue가 있어야 함
+├ views
+   ├ About.vue
+   └ Home.vue
+├ common	// 공통 파일 저장 (component, mixins, directives)
+├ layouts	// 
+├ modules
+├ plugins
+├ static	// dummy data
+App.vue
+main.ts
+tests
+ ├ obo
+ └ units
